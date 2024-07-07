@@ -1,0 +1,20 @@
+{
+  "name": "ja",
+  "version": "1.0.0",
+  "description": "The official Jesus Army Platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "tailwindcss build -i ./tw-src/input.css -o ./views/css/style.css",
+    "build-css-w": "npx tailwindcss build -i ./tw-src/input.css -o ./views/css/style.css --watch"
+  },
+  "author": "Jesus Army",
+  "license": "ISC",
+  "dependencies": {
+    "daisyui": "^4.12.10",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "mongodb": "^6.8.0"
+  }
+}

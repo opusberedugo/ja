@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join the Movement</title>
+  <link rel="stylesheet" href="./fonts/style.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <div class="p-3">
+    <div class="navbar bg-deep-midnight px-3 rounded-md">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+          <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+            <!-- <li><a>Item 1</a></li> -->
+            <!-- <li>
+              <a>Parent</a>
+              <ul class="p-2">
+                <li><a>Submenu 1</a></li>
+                <li><a>Submenu 2</a></li>
+              </ul>
+            </li> -->
+            <li><a>About Us</a></li>
+            <li><a>Movements</a></li>
+            <li><a>Announcements</a></li>
+            
+
+          </ul>
+        </div>
+        <a href="./" class="text-xl bebas hover:text-crimson cursor-pointer">Jesus Army</a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <!-- <li><a>Item 1</a></li> -->
+          <!-- <li>
+            <details>
+              <summary>Parent</summary>
+              <ul class="p-2">
+                <li><a>Submenu 1</a></li>
+                <li><a>Submenu 2</a></li>
+              </ul>
+            </details>
+          </li> -->
+          <li><a>About Us</a></li>
+          <li><a>Movements</a></li>
+          <li><a>Announcements</a></li>
+          
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <a href="./login.html" class="btn bg-ghost text-white border-2 border-crimson hover:bg-crimson mr-2">Log In</a>
+        <a href="./signup.html"class="btn bg-crimson text-white hover:bg-ghost hover:border-crimson hover:border-2">Join</a>
+      </div>
+    </div>
+  </div>
+  <!-- End of  Navigation -->
+
+  <main>
+    <div class="block md:flex content-center items-center md:mx-auto m-0 md:w-fit w-full p-4 flex-col">
+      <h2 class="bebas my-3 text-5xl">Log In</h2>
+      <form action="/dbtest" method="post" class=" card bg-deep-midnight shadow-xl p-4 block md:min-w-96">
+
+        <label for="email">Email:</label>
+        <input title="Email" type="email" text id="email" name="email" class="bg-white p-3 py-2 block w-full my-2 rounded-md text-midnight">
+        <p class="text-crimson"></p>
+
+        
+        <label for="password">Password:</label>
+        <input title="Password" type="password" text id="password" name="password" class="bg-white p-3 py-2 block w-full my-2 rounded-md text-midnight">
+        <p class="text-crimson"></p>
+
+        <button type="submit" class="block w-full btn bg-crimson text-white hover:bg-deep-crimson my-4">Submit</button>
+      </form>
+      <p class="my-3">Don't have an account? | <a class="text-crimson hover:text-deep-crimson font-semibold" href="./signup.html">Sign Up</a></p>
+    </div>
+  </main>
+
+
+  <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/flatpickr.min.js"></script>
+  <script src="./script/signup.js"></script>
+</body>
+
+</html>
